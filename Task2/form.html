@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+<div style="min-height: 8vh"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 ">
+      <form class="row g-3" method="post">
+        <div class="col-md-12">
+          <label class="form-label">ФИО</label>
+          <input type="text" class="form-control" name="FIO" required >
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Адрес</label>
+          <input type="text" class="form-control"  name="address" >
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" name="email">
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Мобильный телефон</label>
+          <input type="number" class="form-control"  name="phone_number" required>
+        </div>
+        <div class="col-md-12">
+          <label  class="form-label">Комментарий</label>
+          <textarea class="form-control" name="comment" placeholder="Введите свой отзыв" ></textarea>
+        </div>
+        <div class="col-md-12">
+          <label  class="form-label">Файл</label>
+          <input type="file" class="form-control" name="file">
+        </div>
+        <div class="col-md-12 align-items-center ">
+          <button class="btn btn-primary" type="submit" >Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
